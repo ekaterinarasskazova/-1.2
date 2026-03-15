@@ -11,3 +11,4 @@ if (strpos($left, "+") !== false) {
 } elseif (strpos($left, "/") !== false) {
     $operator = "/";
 } 
+list($part1, $part2) = explode($operator, $left);
