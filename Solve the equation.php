@@ -12,3 +12,8 @@ if (strpos($left, "+") !== false) {
     $operator = "/";
 } 
 list($part1, $part2) = explode($operator, $left);
+if ($part1 == "X") {
+    $X = $right / $part2;
+} else {
+    $X = $right / $part1;
+}
