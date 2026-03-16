@@ -17,3 +17,8 @@ if ($part1 == "X") {
 } else {
     $X = $right / $part1;
 }
+echo "Уравнение: $equation\n";
+echo "Оператор: $operator\n";
+echo "X = $X";
+
+?>
